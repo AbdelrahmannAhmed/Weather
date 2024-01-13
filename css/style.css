@@ -1,0 +1,74 @@
+.site-header {
+    background-color: #1e202b;
+    padding: 50px 0;
+}
+
+.specialborder {
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+}
+
+.speicalhover {
+    transition: all 0.5s;
+    border: 2px solid transparent;
+    border-radius: 30px;
+
+
+}
+
+.speicalhover:hover {
+    color: #009ad8 !important;
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+}
+
+.inputcolor {
+    background-color: #1e202b !important;
+    color: white !important;
+}
+
+.inputcolor::placeholder {
+    color: grey;
+}
+
+.spclcolor {
+    background-color: #009ad8;
+}
+
+.spcpadding {
+    padding: 20px 50px 20px 20px;
+}
+
+.background {
+    background-image: url(../Images/banner.png);
+    min-height: 350px;
+    padding: 70PX 0 0 0;
+    background-size: cover;
+    background-color: #1e202b;
+}
+
+.form-control:focus {
+    border-color: transparent;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px transparent;
+}
+
+.area {
+    background-color: #1e202b;
+    height: 200px;
+}
+
+.forecast {
+    bottom: 190px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.c1{
+    background-color: #1e202bc2;
+}
+
+
